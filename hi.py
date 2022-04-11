@@ -1,2 +1,2 @@
-string = 'HEllo'
+string = ${{secrets.STRING}}
 print(string)
