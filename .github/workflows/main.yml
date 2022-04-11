@@ -30,5 +30,6 @@ jobs:
       - name: Run a one-line script
         env: 
               STRING: ${{secrets.STRING}}
+        run: echo "HEllp"
 
 
