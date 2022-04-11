@@ -1,2 +1,2 @@
-string = ${{secrets.STRING}}
+string =os.environ['STRING']
 print(string)
