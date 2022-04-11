@@ -25,7 +25,7 @@ jobs:
         
     - name: Test env vars for python
       env:
-        STRING: ${{ secrets.STRING }} 
+        STRING: ${{secrets.STRING}} 
       run: python -c "import os;print(os.environ['STRING'])"
 
 
